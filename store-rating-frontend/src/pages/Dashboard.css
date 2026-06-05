@@ -1,0 +1,39 @@
+.dashboard-container {
+  text-align: center;
+  padding: 40px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.dashboard-container h1 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 220px;
+  height: 140px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #34495e;
+}
